@@ -1,0 +1,63 @@
+body {
+    background-color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sidebox{
+    margin-left: 300px;
+    margin-top: -170px;
+    margin-right: 540px;
+    background: yellowgreen;
+}
+
+
+#box {
+    margin-top: -900px;
+    margin-bottom: 100px;
+    margin-left: 1000px;
+    background: palevioletred;
+}
+
+#main {
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+#container{
+}
+
+
+#eclipse {
+    width:160px;
+    height:215px;
+    background-color: black;
+    border-radius: 0 50% 50% 0;
+}
+
+#pic {
+    clip-path: circle();
+    width: 150px;
+}
+
+
+h2 {
+    width: 25vw;
+    color: white;
+    background-color: black;
+}
+
+
+h1 {
+    margin-left: 20px;
+    margin-top: 35px;
+    justify-self: center;
+    text-align: center;
+    color: black;
+    width: 40vw;
+}
+    
+
+
+
+
+
